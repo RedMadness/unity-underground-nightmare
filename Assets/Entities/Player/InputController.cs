@@ -27,8 +27,7 @@ public class InputController : MonoBehaviour
 
         /* 
             Что тут происходит:
-            input.Player.Move - конкретное действие Move. полученное из InputSystem
-            .performed - событие, срабатывающее когда действие совершается
+            input.Player.Move - конкретное действие Move. полученное из InputSystem.performed - событие, срабатывающее когда действие совершается
             += payload => direction = payload.ReadValue<Vector2>():
                 += - подписка на событие лямбда функцией
                 payload приходящее вместе с событием значение
